@@ -1,13 +1,15 @@
 //import logo from './logo.svg';
 import './App.css';
+import AuthorProfile from './AuthorProfile';
 
-function App() {
-  
+
+
+const App = () => {
   return (
-    <div className="App">
-    
+    <div className='app'>
+      <AuthorProfile />
     </div>
-  );
+  )
 }
 
 export default App;
